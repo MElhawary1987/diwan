@@ -124,7 +124,7 @@
   /*  */
   
   /* ── CURSOR ── */
-  /* * { cursor: none; }
+  * { cursor: none; }
   .cursor {
     position: fixed; width: 12px; height: 12px;
     background: var(--sec-color); border-radius: 50%;
@@ -144,7 +144,7 @@
   @media (max-width: 900px) {
     * { cursor: auto; }
     .cursor, .cursor-ring { display: none; }
-  } */
+  } 
 
  
 /* Side menu */
