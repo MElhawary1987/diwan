@@ -405,19 +405,19 @@ a.lang-head:hover{
   display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 6rem 5rem 6rem 3rem;
+    padding: 96px 80px 96px 48px;
     position: relative;
     z-index: 2;
 }
 .head-right h4{
       display: inline-flex;
     align-items: center;
-    gap: 0.8rem;
+    gap: 13px;
     font-size: 14px;
     font-weight: 700;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.7px;
     color: var(--sec-color);
-    margin-bottom: 2rem;
+    margin-bottom: 30x;
         text-transform: capitalize;
 }
 .head-right h4::before {
@@ -430,7 +430,7 @@ a.lang-head:hover{
 .head-right>span{
     font-size: 62px;
     font-weight: 900;
-    margin-bottom: 0.4rem;
+    margin-bottom: 6px;
     font-family: "bold";
     text-transform: capitalize;
 }
@@ -441,15 +441,15 @@ a.lang-head:hover{
    color: var(--sec-color);
 }
 .head-right p{
-    font-size: 1.1rem;
+    font-size: 17px;
     line-height: 1.9;
     color: var(--blue-color);
     width: 84%;
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
 }
 .head-button{
     display: flex;
-    gap: 1.2rem;
+    gap: 20px;
     align-items: center;
     flex-wrap: wrap;
     position: relative;
@@ -472,9 +472,9 @@ position: absolute;
 .start-now{
   background: var(--main-color);
     color: var(--white);
-    padding: 1rem 2.5rem;
+    padding: 15px 40px;
     font-family: 'Tajawal', sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
@@ -493,9 +493,9 @@ position: absolute;
 .start-up{
   background: var(--sec-color);
     color: var(--white);
-    padding: 1rem 2.5rem;
+    padding: 16px 40px;
     font-family: 'Tajawal', sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
@@ -511,22 +511,22 @@ position: absolute;
 }
 .head-num{
 
-    margin-top: 3.5rem;
-    padding-top: 2.5rem;
+    margin-top:55px;
+    padding-top: 40px;
     border-top: 1px solid rgba(13, 35, 88, 0.1);
 }
 .numbers-flex{
     display: flex;
-    gap: 3rem;
+    gap: 48px;
 }
 .numbers-item{
-font-size: 2.5rem;
+font-size: 40px;
     font-weight: 900;
     color: var(--main-color);
     line-height: 1;
     display: flex;
     align-items: start;
-    gap: 0.2rem;
+    gap: 3.2px;
     display: flex;
     flex-direction: column;
 }
@@ -540,9 +540,9 @@ font-size: 2.5rem;
       font-family: 'bold';
 }
 .numbers-item .item-name{
-      font-size: 0.82rem;
+      font-size: 14px;
     color: var(--blue-color);
-    margin-top: 0.3rem;
+    margin-top: 5px;
     font-weight: 500;
     font-family: 'reg';
 }
@@ -579,11 +579,11 @@ position: absolute;
   display: inline-block;
     background: var(--sec-color);
     color: white;
-    padding: 0.4rem 1rem;
-    font-size: 0.78rem;
+    padding: 6px 16px;
+    font-size: 13px;
     font-weight: 700;
-    letter-spacing: 0.05em;
-    margin-bottom: 2rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 32px;
     align-self: flex-start;
 }
 /* .head-box{
@@ -599,7 +599,7 @@ position: absolute;
 .head-box {
       background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 2.5rem;
+    padding:40px;
     backdrop-filter: blur(10px);
     position: relative;
 }
@@ -607,27 +607,27 @@ position: absolute;
       font-size: 32px;
     font-weight: 900;
     color: white;
-    margin-bottom: 0.4rem;
+    margin-bottom: 8px;
     font-family: 'bold';
 }
 .head-box span{
-font-size: 0.82rem;
+font-size: 13px;
     font-weight: 600;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.6px;
     color: var(--sec-color);
     margin-bottom: 15px;
     text-transform: uppercase;
     display: inline-block;
 }
 .head-box p{
-      font-size: 0.95rem;
+      font-size: 16px;
     line-height: 1.9;
     color: rgba(255, 255, 255, 0.6);
 }
 .head-years{
   position: absolute;
-    bottom: -1.5rem;
-    left: -1.5rem;
+    bottom: -24px;
+    left: -24px;
     width: 90px;
     height: 90px;
     background: var(--sec-color);
@@ -639,12 +639,12 @@ font-size: 0.82rem;
     color: white;
 }
 .head-years span:first-child{
-  font-size: 1.8rem;
+  font-size: 28px;
     font-weight: 900;
     line-height: 1;
 }
 .head-years span{
-  font-size: 0.55rem;
+  font-size: 9px;
     font-weight: 700;
     text-align: center;
     line-height: 1.3;
@@ -661,22 +661,22 @@ font-size: 0.82rem;
   display: inline-flex;
 flex-direction: column;
     align-items: start;
-    gap: 0.8rem;
-    font-size: 0.85rem;
+    gap:13px;
+    font-size:14px;
     font-weight: 700;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.68px;
     color: var(--sec-color);
-    margin-bottom: 2rem;
+    margin-bottom:32px;
 }
 .about-tag{
     display: inline-flex;
     align-items: center;
-    gap: 0.6rem;
+    gap: 10px;
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: 0.08em;
+    letter-spacing:1.44px;
     color: var(--sec-color);
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
     text-transform: uppercase;
     font-family: 'bold';
 }
@@ -704,7 +704,7 @@ flex-direction: column;
 }
 .service-item{
   position: relative;
- padding: 3rem 2.5rem;
+ padding: 48px 40px;
     position: relative;
     overflow: hidden;
     background-color: #faf6ee;
@@ -718,7 +718,7 @@ flex-direction: column;
     transform: translateY(-5px);
 }
 .item-num{
-    font-size: 4rem;
+    font-size: 64px;
     font-weight: 900;
     line-height: 1;
     color: rgba(13, 35, 88, 0.06);
@@ -733,7 +733,7 @@ flex-direction: column;
     background: var(--main-color);
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
     z-index: 1;
     transition: background 0.3s;
     display: flex;
@@ -751,13 +751,13 @@ position: absolute;
     height: 24px;
 }
 .service-item h5{
-  font-size: 1.2rem;
+  font-size: 19.5px;
     font-weight: 700;
     color: var(--text-color);
-    margin-bottom: 0.4rem;
+    margin-bottom: 8px;
 }
 .service-item p{
-  font-size: 0.92rem;
+  font-size: 14.7px;
     line-height: 1.9;
      color: var(--blue-color);
     position: relative;
@@ -769,8 +769,8 @@ position: absolute;
     color: var(--blue-color);
 }
 .service-item ul li{
-  margin-bottom: 0.5rem;
-    font-size: 0.95rem;
+  margin-bottom: 8px;
+    font-size:15.2px;
     line-height: 1.6;
 }
 .service-item ul li::marker{
@@ -780,7 +780,7 @@ position: absolute;
 /* ABOUT */
 .about-home-section{
   background: var(--text-color);
-    padding: 7rem 5rem;
+    padding: 110px 80px;
 
     position: relative;
     overflow: hidden;
@@ -801,17 +801,17 @@ position: absolute;
 .about-home-flex{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5rem;
+    gap: 80px;
     align-items: center;
 }
 .about-home-right{
   position: relative;
 }
 .about-home-right p{
-  font-size: 1.05rem;
+  font-size: 16.8px;
     line-height: 2;
     color: rgba(255, 255, 255, 0.6);
-    margin-top: 1.5rem;
+    margin-top: 24px;
 }
 .about-home-right span{
   display: block;
@@ -823,22 +823,22 @@ position: absolute;
 .about-right-content{
  display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1.2rem;
-    margin-top: 2.5rem;
+    gap: 19.5px;
+    margin-top: 40px;
 }
 .about-item{
       border-right: 3px solid var(--sec-color);
-    padding-right: 1rem;
+    padding-right: 16px;
     transition: border-color 0.2s;
 }
 .about-item h4{
-  font-size: 0.95rem;
+  font-size: 15.2px;
     font-weight: 800;
     color: white;
-    margin-bottom: 0.3rem;
+    margin-bottom: 5px;
 }
 .about-item p{
-      font-size: 0.82rem;
+      font-size: 13px;
     color: rgba(255, 255, 255, 0.45);
     line-height: 1.6;
         margin-top: 10px;
@@ -847,41 +847,41 @@ position: absolute;
 .about-home-left{
       background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.09);
-    padding: 3rem;
+    padding: 48px;
     position: relative;
 }
 .about-years{
   position: absolute;
-    top: -1.5rem;
-    right: -1.5rem;
+    top: -24px;
+    right: -24px;
     background: var(--sec-color);
     color: white;
-    padding: 1rem 1.2rem;
+    padding: 16px 19px;
     text-align: center;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
 }
 .about-years span:first-child{
   display: block;
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: 900;
     line-height: 1;
     color: var(--white-color);
 }
 .about-years span:last-child {
-    font-size: 0.65rem;
+    font-size: 11px;
     font-weight: 700;
 }
 .about-home-left p{
-  font-size: 1.1rem;
+  font-size: 17.5px;
     line-height: 2;
     color: rgba(255, 255, 255, 0.82);
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 32px;
+    margin-top: 32px;
 }
 .about-left-flex-box{
       display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 16px;
 }
 .left-photo{
   width: 54px;
@@ -893,7 +893,7 @@ position: absolute;
     align-items: center;
     justify-content: center;
     font-family: 'Tajawal', sans-serif;
-    font-size: 1.3rem;
+    font-size: 20px;
     font-weight: 900;
     color: white;
 }
@@ -906,13 +906,13 @@ position: absolute;
 .left-title h4{
       font-weight: 800;
     color: white;
-    font-size: 1rem;
+    font-size: 16px;
     margin-bottom: 0;
 }
 .left-title span{
-  font-size: 0.78rem;
+  font-size: 13px;
     color: var(--sec-color);
-    letter-spacing: 0.05em;
+    letter-spacing: 0.6px;
 }
 /* ABOUT */
 
@@ -935,16 +935,16 @@ color: var(--text-color);
     grid-template-columns: repeat(5, 1fr);
     gap: 1.5px;
     background: rgba(13, 35, 88, 0.08);
-    margin-top: 3rem;
+    margin-top: 48px;
 }
 .partner-item{
   background: #faf6ee;
-    padding: 1.8rem 1rem;
+    padding: 28px 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.4rem;
+    gap: 6px;
     min-height: 90px;
     transition: background 0.2s;
     position: relative;
@@ -969,7 +969,7 @@ color: var(--text-color);
   background: var(--white-color);
 }
 .partner-item span{
-  font-size: 0.82rem;
+  font-size: 13px;
     font-weight: 800;
     text-align: center;
     color: var(--text-color);
@@ -990,15 +990,15 @@ color: var(--text-color);
 .contact-home-flex{
   display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5rem;
+    gap: 80px;
     align-items: center;
 }
 .contact-right{}
 .contact-right p{
-      font-size: 0.95rem;
+      font-size: 15px;
     line-height: 1.9;
     color: #5a6a8a;
-    margin-top: 1rem;
+    margin-top:16px;
 }
 .contact-right h3{
   font-size: 45px;
@@ -1018,14 +1018,14 @@ color: var(--text-color);
 }
 .contact-item-flex{
   display: flex;
-    gap: 1.5rem;
+    gap: 24px;
     flex-direction: column;
-    margin-top: 2.5rem;
+    margin-top: 40px;
 }
 .contact-item{
   display: flex;
     align-items: start;
-    gap: 1rem;
+    gap: 16px;
 }
 .contact-item i{
   width: 40px;
@@ -1041,17 +1041,17 @@ color: var(--text-color);
 .contact-text{
       display: flex;
     flex-direction: column;
-    gap: 0.2rem;
+    gap: 4px;
 }
 .contact-text h4{
-  font-size: 0.72rem;
+  font-size: 11px;
     font-weight: 700;
-    letter-spacing: 0.08em;
+    letter-spacing:0.9px;
     color: var(--sec-color);
     text-transform: uppercase;
 }
 .contact-text a{
-  font-size: 0.95rem;
+  font-size: 15.2px;
     color: var(--text-color);
     font-weight: 500;
       -webkit-transition: 0.5s ease;
@@ -1064,15 +1064,15 @@ color: var(--text-color);
 color: var(--blue-color);
 }
 .contact-text p{
-    font-size: 0.95rem;
+      font-size: 15.2px;
     color: var(--text-color);
     font-weight: 500;
     margin: 0;
 }
 .form-group.cont label {
-    font-size: 0.78rem;
+    font-size: 13px;
     font-weight: 700;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.6px;
     color: #5a6a8a;
     margin-bottom: 10px;
 }
@@ -1080,9 +1080,9 @@ color: var(--blue-color);
 .form-group.cont input, .form-group.cont textarea {
     background: var(--white-color);
     border: 1.5px solid rgba(13, 35, 88, 0.12);
-    padding: 0.9rem 1.1rem;
+    padding: 15px 17px;
     font-family: 'med';
-    font-size: 0.95rem;
+    font-size: 15px;
     color: var(--text-color);
     outline: none;
     direction: rtl;
@@ -1102,8 +1102,8 @@ color: var(--blue-color);
 .submit-form{
   background: var(--text-color);
     color: var(--white-color);
-    padding: 1rem 2.5rem;
-    font-size: 1rem;
+    padding: 16px 40px;
+    font-size: 16px;
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
@@ -1120,13 +1120,13 @@ color: var(--blue-color);
 footer{
       background-color: var(--text-color);
     color: white;
-    padding: 1.5rem 0;
+    padding: 24px 0;
     border-top: 3px solid var(--sec-color);
 }
 .foot-flex{
   display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 16px;
     justify-content: space-between;
 }
 .foot-logo img{filter: brightness(0) invert(1);
@@ -1136,7 +1136,7 @@ footer{
 .foot-social{
   display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 16px;
 }
 .foot-social i{
     width: 38px;
@@ -1146,7 +1146,7 @@ footer{
     align-items: center;
     justify-content: center;
     color: rgba(255, 255, 255, 0.55);
-    font-size: 0.78rem;
+    font-size: 13px;
     font-weight: 700;
     text-decoration: none;
     -webkit-transition: 0.5s ease;
@@ -1178,11 +1178,11 @@ color: var(--blue-color);}
 .head-right p {
     font-size: 16px;
     width: 94%;
-        margin-bottom: 1rem
+        margin-bottom: 16px
 }
 .head-num {
-    margin-top: 2.5rem;
-    padding-top: 2rem;
+    margin-top: 40px;
+    padding-top: 32px;
 }
 .services-head p {
     font-size: 42px;
@@ -1209,7 +1209,7 @@ color: var(--blue-color);}
     grid-template-columns: repeat(2, 1fr);
 }
 .about-home-flex {
-    gap: 5rem;
+    gap: 80px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -1239,7 +1239,7 @@ color: var(--blue-color);}
     padding-top: 55px;
 }
 .contact-home-flex {
-    gap: 3rem;
+    gap: 48px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -1257,7 +1257,7 @@ color: var(--blue-color);}
 }
 .contact-item-flex {
 
-    margin-top: 2rem;
+    margin-top: 32px;
 }
 .contact-text p{width: 100%;}
 .contact-left{width: 100%;}
@@ -1306,7 +1306,7 @@ color: var(--blue-color);}
     flex-direction: column;
 }
 .about-home-left {
-    padding: 2rem;
+    padding: 32px;
 }
 .about-years {
    top: 0;
@@ -1327,7 +1327,7 @@ color: var(--blue-color);}
     }
         .partner-flex {
         grid-template-columns: repeat(2, 1fr);
-        margin-top: 2rem;
+        margin-top: 32px;
     }
         .contact-home-section {
         padding-bottom: 50px;
@@ -1362,14 +1362,14 @@ color: var(--blue-color);}
     font-size: 30px;
 }
 .service-item {
-    padding: 2rem 1.5rem;
+    padding: 32px 24px;
 }
 .about-home-right p {
         width: 94%;
 
     }
     .about-home-flex {
-        gap: 3rem;
+        gap: 48px;
     }
     .about-home-left p {
     font-size: 15px;
@@ -1396,7 +1396,7 @@ color: var(--blue-color);}
         padding-bottom: 25px;
     }
     .numbers-flex {
-    gap: 1.5rem;
+    gap: 24px;
 }
 .head-right>span {
         font-size: 29px;
