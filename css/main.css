@@ -124,7 +124,7 @@
   /*  */
   
   /* ── CURSOR ── */
-  * { cursor: none; }
+  /* * { cursor: none; }
   .cursor {
     position: fixed; width: 12px; height: 12px;
     background: var(--sec-color); border-radius: 50%;
@@ -144,7 +144,7 @@
   @media (max-width: 900px) {
     * { cursor: auto; }
     .cursor, .cursor-ring { display: none; }
-  } 
+  } */
 
  
 /* Side menu */
@@ -279,9 +279,26 @@
     justify-content: space-between;
     /* padding: 15px 0px; */
 }
+.logo-head{
+  display: flex;
+    align-items: center;
+}
 .logo-head img{
-     width: 108px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
+}
+.logo-text p{
+      margin-bottom: 0;
+    font-size: 24px;
+    font-family: 'bold';
+    font-weight: 900;
+        color: var(--main-color);
+}
+.logo-text span{
+  font-size: 13px;
+    margin-top: -3px;
+    display: block;
+        color: var(--sec-color);
 }
 .menu-head li a{
   font-size: 16px;
@@ -298,6 +315,9 @@
   
 .menu ul{
   display: flex;
+}
+.menu-head{
+  margin-inline-start: auto;
 }
 .menu-head li a:hover{
   color: var(--sec-color);
@@ -471,7 +491,7 @@ position: absolute;
   background: var(--main-color);
     color: var(--white);
     padding: 15px 40px;
-    font-family: 'Tajawal', sans-serif;
+    font-family: "bold";
     font-size: 16px;
     font-weight: 700;
     text-decoration: none;
@@ -488,6 +508,7 @@ position: absolute;
       color: var(--white-color);
 
 }
+
 .start-up{
   background: var(--sec-color);
     color: var(--white);
@@ -539,7 +560,7 @@ font-size: 40px;
       font-family: 'bold';
 }
 .numbers-item .item-name{
-      font-size: 14px;
+      font-size: 19px;
     color: var(--blue-color);
     margin-top: 5px;
     font-weight: 500;
@@ -594,7 +615,15 @@ position: absolute;
     padding: 3rem;
     z-index: 2;
 } */
-
+.head-ceo-flex{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head-photo img{
+  width: 180px;
+}
 .head-box {
       background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -608,9 +637,10 @@ position: absolute;
     color: white;
     margin-bottom: 8px;
     font-family: 'bold';
+    margin-top: 25px;
 }
 .head-box span{
-font-size: 13px;
+font-size: 17px;
     font-weight: 600;
     letter-spacing: 0.6px;
     color: var(--sec-color);
@@ -619,9 +649,10 @@ font-size: 13px;
     display: inline-block;
 }
 .head-box p{
-      font-size: 16px;
+    font-size: 17px;
     line-height: 1.9;
     color: rgba(255, 255, 255, 0.6);
+    text-align: center;
 }
 .head-years{
   position: absolute;
@@ -743,7 +774,7 @@ position: absolute;
     bottom: -15px;
     left: -20px;
     filter: brightness(0) invert(0.9);
-    width: 110px;
+    width: 95px;
     z-index: 9;
 }
 .item-icon svg {
@@ -751,13 +782,13 @@ position: absolute;
     height: 24px;
 }
 .service-item h5{
-  font-size: 19.5px;
+ font-size: 22px;
     font-weight: 700;
     color: var(--text-color);
     margin-bottom: 8px;
 }
 .service-item p{
-  font-size: 14.7px;
+  font-size: 17px;
     line-height: 1.9;
      color: var(--blue-color);
     position: relative;
@@ -770,13 +801,44 @@ position: absolute;
 }
 .service-item ul li{
   margin-bottom: 8px;
-    font-size:15.2px;
+    font-size: 18px;
     line-height: 1.6;
+    font-family: 'med';
 }
 .service-item ul li::marker{
   color: var(--sec-color);
 }
+/* ticker */
+.line-home-section {
+    background: var(--text-color);
+    overflow: hidden;
+    padding: 15px 0;
+    border-top: 3px solid var(--sec-color);
+}
 
+  /* ── MARQUEE ── */
+  /* .ticker {
+    background: var(--navy); overflow: hidden;
+    padding: 0.9rem 0; border-top: 3px solid var(--sec-color);
+  } */
+  .ticker-track {
+    display: flex; gap: 0;
+    animation: rtl-scroll 30s linear infinite;
+    white-space: nowrap;
+  }
+  .ticker-item {
+    display: inline-flex; align-items: center; gap:23px;
+    padding: 0 23px; flex-shrink: 0;
+    font-size: 17px; font-weight: 700; color: white;
+    letter-spacing: 0.6px;
+  }
+  .ticker-sep { color: var(--sec-color); font-size: 8px; }
+  @keyframes rtl-scroll {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+  }
+
+/*  ticker*/
 /* ABOUT */
 .about-home-section{
   background: var(--text-color);
@@ -808,7 +870,7 @@ position: absolute;
   position: relative;
 }
 .about-home-right p{
-  font-size: 16.8px;
+      font-size: 18px;
     line-height: 2;
     color: rgba(255, 255, 255, 0.6);
     margin-top: 24px;
@@ -833,13 +895,13 @@ position: absolute;
     transition: border-color 0.2s;
 }
 .about-item h4{
-  font-size: 15.2px;
+     font-size: 21px;
     font-weight: 800;
     color: white;
     margin-bottom: 5px;
 }
 .about-item p{
-      font-size: 13px;
+    font-size: 17px;
     color: rgba(255, 255, 255, 0.45);
     line-height: 1.6;
         margin-top: 10px;
@@ -907,11 +969,11 @@ position: absolute;
 .left-title h4{
       font-weight: 800;
     color: white;
-    font-size: 16px;
+    font-size: 19px;
     margin-bottom: 0;
 }
 .left-title span{
-  font-size: 13px;
+  font-size: 16px;
     color: var(--sec-color);
     letter-spacing: 0.6px;
 }
@@ -951,7 +1013,18 @@ color: var(--text-color);
     position: relative;
     overflow: hidden;
 }
-
+.partner-blog{
+      text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.partner-blog img{
+    width: 145px;
+    height: 70px;
+    transform: perspective(1px); 
+    filter: grayscale(1);
+}
 .partner-item::after {
     content: '';
     position: absolute;
@@ -969,12 +1042,16 @@ color: var(--text-color);
 .partner-item:hover{
   background: var(--white-color);
 }
+.partner-item:hover .partner-blog img{
+    filter: grayscale(0);
+}
 .partner-item span{
   font-size: 13px;
     font-weight: 800;
     text-align: center;
     color: var(--text-color);
     opacity: 0.4;
+        margin-top: 25px;
     transition: opacity 0.2s, color 0.2s;
 }
 .partner-item:hover span{
@@ -996,7 +1073,7 @@ color: var(--text-color);
 }
 .contact-right{}
 .contact-right p{
-      font-size: 15px;
+     font-size: 19px;
     line-height: 1.9;
     color: #5a6a8a;
     margin-top:16px;

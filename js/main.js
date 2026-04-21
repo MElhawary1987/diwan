@@ -67,6 +67,22 @@ $(window).scroll(function () {
     }
   }
 });
+      $('.marquee').marquee({
+	duration: 6000,
+	gap: 50,
+	delayBeforeStart: 0,
+	direction: 'right',
+	duplicated: true,
+	pauseOnHover: true
+});
+$('.line-item_en').marquee({
+	duration: 6000,
+	gap: 50,
+	delayBeforeStart: 0,
+	direction: 'left',
+	duplicated: true,
+	pauseOnHover: true
+});
 // Custom cursor
   const cursor = document.getElementById('cursor');
   const ring = document.getElementById('cursorRing');
@@ -84,6 +100,7 @@ $(window).scroll(function () {
     el.addEventListener('mouseleave', () => { cursor.style.transform = 'translate(-50%,-50%) scale(1)'; });
   });
 
-    
+
+
 
 });
