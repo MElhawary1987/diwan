@@ -83,6 +83,15 @@ $('.line-item_en').marquee({
 	duplicated: true,
 	pauseOnHover: true
 });
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    $('.top-head-flex').addClass('fixedheader');
+  } else {
+    $('.top-head-flex').removeClass('fixedheader');
+  }
+}
 // Custom cursor
   const cursor = document.getElementById('cursor');
   const ring = document.getElementById('cursorRing');
