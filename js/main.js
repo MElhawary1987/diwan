@@ -83,7 +83,8 @@ $('.line-item_en').marquee({
 	duplicated: true,
 	pauseOnHover: true
 });
-	window.onscroll = function() {scrollFunction()};
+
+window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -92,6 +93,9 @@ function scrollFunction() {
     $('.top-head-flex').removeClass('fixedheader');
   }
 }
+if ($(window).width() <= 768){ 
+    $(".wow").removeClass("wow");
+    }
 // Custom cursor
   const cursor = document.getElementById('cursor');
   const ring = document.getElementById('cursorRing');
